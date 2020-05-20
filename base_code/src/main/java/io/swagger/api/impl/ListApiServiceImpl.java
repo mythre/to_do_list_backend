@@ -24,7 +24,7 @@ import javax.validation.constraints.*;
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2020-05-19T08:47:32.084Z[GMT]")public class ListApiServiceImpl extends ListApiService {
     @Override
     public Response listUserIdGet(Integer userId, SecurityContext securityContext) throws NotFoundException {
-        // do some magic!
+
         return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
     }
     @Override
