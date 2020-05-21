@@ -10,7 +10,7 @@ public class DatabaseConfig{
     }
     @Bean
     public ListDAO listDAO(){
-        return new ListDAO();
+        return new ListDAO(postgresSql());
     }
 
 }
